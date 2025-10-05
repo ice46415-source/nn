@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost/github%20REpo/servesoft';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost/servesoft';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
